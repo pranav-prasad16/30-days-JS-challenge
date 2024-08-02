@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Local Storage & Session Storage Tutorial</h1>
+    <section>
+      <div>
+        <h2>Local Storage saving string</h2>
+        <label for="">Write a message below to save in local storage</label>
+        <textarea name="" id="text-area"></textarea>
+        <button id="btn1">Local Storage Save String</button>
+        <button id="btn2">Local Storage Retrieve String</button>
+        <p id="local-storage-message-string"></p>
+      </div>
+      <div>
+        <h2>Local Storage saving object</h2>
+        <button id="btn-obj-1">Local storage save Object</button>
+        <button id="btn-obj-2">Local storage Retrieve Object</button>
+        <p id="local-storage-message-object"></p>
+      </div>
+      <div>
+        <h2>Local Storage saving form data</h2>
+        <form action="" id="my-form">
+          <label for="name">Enter name:</label>
+          <input type="text" name="name" id="name" />
+          <label for="email">Enter email:</label>
+          <input type="email" name="email" id="email" />
+          <button id="btn-form-1" type="submit">
+            Local storage save form data
+          </button>
+        </form>
+        <button id="btn-form-2">Local storage Retrieve data</button>
+        <p id="local-storage-message-form-data"></p>
+      </div>
+      <div>
+        <button id="remove-from-local-storage">
+          Remove From Local Storage
+        </button>
+        <p id="remove-from-local-storage-feedback"></p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h2>Session Storage saving string</h2>
+        <label for="">Write a message below to save in session storage</label>
+        <textarea name="" id="session-text-area"></textarea>
+        <button id="session-btn1">Session Storage Save String</button>
+        <button id="session-btn2">Session Storage Retrieve String</button>
+        <p id="session-local-storage-message-string"></p>
+      </div>
+      <div>
+        <h2>Session Storage saving object</h2>
+        <button id="session-btn-obj-1">Session storage save Object</button>
+        <button id="session-btn-obj-2">Session storage Retrieve Object</button>
+        <p id="session-local-storage-message-object"></p>
+      </div>
+      <div>
+        <h2>Session Storage saving form data</h2>
+        <form action="" id="session-my-form">
+          <label for="session-name">Enter name:</label>
+          <input type="text" name="session-name" id="session-name" />
+          <label for="session-email">Enter email:</label>
+          <input type="email" name="session-email" id="session-email" />
+          <button id="session-btn-form-1" type="submit">
+            Session storage save form data
+          </button>
+        </form>
+        <button id="session-btn-form-2">Session storage Retrieve data</button>
+        <p id="session-local-storage-message-form-data"></p>
+      </div>
+      <div>
+        <button id="session-remove-from-local-storage">
+          Remove From Session Storage
+        </button>
+        <p id="session-remove-from-local-storage-feedback"></p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h2>Saving and retreieving to session and local storage</h2>
+        <label for="">Enter key: </label>
+        <textarea name="" id="session-local-key"></textarea>
+        <label for="">Enter value: </label>
+        <textarea name="" id="session-local-value"></textarea>
+        <button id="session-local-store">
+          Store to local and session storage
+        </button>
+        <button id="session-local-retrieve">
+          Retrieve from local and session storage
+        </button>
+        <p id="session-local-display"></p>
+        <h2>Removing from session and local storage</h2>
+        <button id="session-local-remove">Remove from session and Local</button>
+        <p id="session-local-remove-feedback"></p>
+      </div>
+    </section>
+    <script src="Activity.js"></script>
+    <script src="Activity1.js"></script>
+    <script src="Activity2.js"></script>
+  </body>
+</html>
